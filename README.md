@@ -23,3 +23,10 @@ CHATO_API: "YOUR_CHATO_API"  #  chato机器人上面的api
 ``` bash
 python chato.py
 ```
+
+
+## 服务器无法登录的情况
+
+https://github.com/yihong0618/MiService/issues/2
+
+大概意思是小米是采用WLS，即无限局域网形式连接的小爱同学，服务器部署可申请api。

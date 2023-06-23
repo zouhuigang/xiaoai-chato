@@ -82,12 +82,14 @@ class ChatoAI:
 
     async def login_miboy(self, session):
         self.session = session
+        print(f"user:{self.mi_user} pass:{self.mi_pass}\n")
         self.account = MiAccount(
             session,
             self.mi_user,
             self.mi_pass,
             str(self.mi_token_home),
         )
+        print(f"get account deviceId:{self.account.token.get('deviceId')} userId:{self.account.token.get('userId')} ")
         # Forced login to refresh to refresh token
         await self.account.login("micoapi")
         self.mina_service = MiNAService(self.account)
