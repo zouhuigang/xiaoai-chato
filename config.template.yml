@@ -1,0 +1,6 @@
+HARDWARE: "LX05"           # 你的小爱音箱设备型号（贴在小爱音箱底部）
+
+MI_USER: "米家账号(邮箱或手机号等)"  # 你的米家账号
+MI_PASS: "米家账号密码"    # 你的米家密码
+
+CHATO_API: 'https://api.chato.cn/chato/api-public/domains/{机器人编号}/chat' # chato.cn上的api地址
