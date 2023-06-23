@@ -1,8 +1,6 @@
-## 依赖安装
+## Chato
 
-``` bash
-pip3 install -r requirements.txt
-```
+[Chato网址](chato.cn) 可前往注册一个新的机器人。
 
 ## 配置
 
@@ -23,5 +21,5 @@ CHATO_API: "YOUR_CHATO_API"  #  chato机器人上面的api
 ## 使用
 
 ``` bash
-python3 chato.py
+python chato.py
 ```

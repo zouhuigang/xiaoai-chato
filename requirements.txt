@@ -1,3 +1,4 @@
 rich
 git+https://github.com/zouhuigang/MiService
 requests
+pyyaml
