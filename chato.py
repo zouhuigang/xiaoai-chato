@@ -42,7 +42,7 @@ def parse_cookie_string(cookie_string):
     return cookiejar
 
 
-class MiWukong:
+class ChatoAI:
     def __init__(
             self,
             use_command=False,
@@ -245,7 +245,7 @@ if __name__ == "__main__":
     options = parser.parse_args()
 
     # if set
-    miboy = MiWukong(
+    miboy = ChatoAI(
         options.use_command,
         options.verbose,
     )
